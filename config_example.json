@@ -1,28 +1,16 @@
 {
   "pools": [
     {
-      "hostname": "pool.supportxmr.com",
-      "port": 7777,
+      "hostname": "uspool.electronero.org",
+      "port": 6666,
       "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 80,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
+      "allowSelfSignedSSL": true,
+      "share": 100,
+      "username": "etnkHfFuanNeTe3q9dux4d9cRiLkUR4hDffvhfTp6nbhEJ5R8TY4vdyZjT4BtWxnvSJ5nfD64eCAQfKMJHSym2dj8PQqeiKmBM",
       "password": "proxy:totally.valid@snipanet.com",
       "keepAlive": true,
       "coin": "xmr",
       "default": false
-    },
-    {
-      "hostname": "mine.xmrpool.net",
-      "port": 7778,
-      "ssl": false,
-      "allowSelfSignedSSL": false,
-      "share": 20,
-      "username": "46XWBqE1iwsVxSDP1qDrxhE1XvsZV6eALG5LwnoMdjbT4GPdy2bZTb99kagzxp2MMjUamTYZ4WgvZdFadvMimTjvR6Gv8hL",
-      "password": "proxy:totally.valid@snipanet.com",
-      "keepAlive": true,
-      "coin": "xmr",
-      "default": true
     }
   ],
   "listeningPorts": [
@@ -39,7 +27,7 @@
       "coin": "xmr"
     },
     {
-      "port": 3333,
+      "port": 1121,
       "ssl": false,
       "diff": 10000,
       "coin": "xmr"
@@ -47,7 +35,7 @@
   ],
   "bindAddress": "0.0.0.0",
   "developerShare": 1,
-  "daemonAddress": "127.0.0.1:18081",
+  "daemonAddress": "127.0.0.1:1030",
   "coinSettings": {
     "xmr":{
       "minDiff": 100,
